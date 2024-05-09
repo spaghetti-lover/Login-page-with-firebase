@@ -15,7 +15,7 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDCe_185Zi7weXhX5G7GAnXMRbawmJH8f8",
+  apiKey: "",
   authDomain: "learn-firebase-45c9a.firebaseapp.com",
   databaseURL:
     "https://learn-firebase-45c9a-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -79,7 +79,7 @@ if (formLogin) {
   });
 }
 
-// Reset password
+// Reset password+
 const formForgotPassword = document.querySelector(".pass");
 formForgotPassword.addEventListener("click", () => {
   const emailInput = document.querySelector("#email");
